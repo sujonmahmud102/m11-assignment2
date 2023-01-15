@@ -1,0 +1,380 @@
+/* -------------------
+    common syles
+---------------------- */
+body {
+    background: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* ----------------------
+        header syles
+-------------------------- */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 228px;
+    margin-right: 240px;
+}
+
+.head-title {
+    font-size: 45px;
+    color: #131313;
+    line-height: 53px;
+}
+
+.head-nav a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.header-info {
+    margin-left: 530px;
+    margin-right: 530px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.header-title {
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+}
+
+.header-description {
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    border: 0;
+}
+
+.header-banner img {
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    width: 1000px;
+}
+
+/* -------------------
+   section team styles
+----------------------*/
+.team {
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: 300px;
+    margin-right: 305px;
+    margin-bottom: 130px;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.team-info {
+    margin-left: 75px;
+}
+
+.team-title {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.team-title-spn-one {
+    color: #131313;
+    font-weight: 700;
+}
+
+.team-title-spn-two {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.team-discripton {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* ---------------------
+        features
+------------------------ */
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 240px;
+}
+
+.features-text-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 0;
+
+}
+.features-description{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-top: 24px;
+margin-bottom: 0;
+}
+
+.features-detail {
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 20px;
+}
+
+.features-types {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow:1px 1px 10px rgba(128, 128, 128, 0.266);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.features-img {
+    margin-left: 50px;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+}
+.features-btn{
+    width: 342px;
+height: 200px;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 65px;
+line-height: 70px;
+background: #FF900E;
+border: 0;
+border-radius: 8px;
+margin-bottom: 0;
+}
+.features-btn span{
+    font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+margin-top: 0;
+}
+/* -----------------------
+achievement section syles
+-------------------------- */
+.facts-title{
+    color: #131313;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+margin-left: 240px;
+margin-bottom: 0;
+margin-top: 130px;
+}
+.facts-discription{
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-left: 240px;
+margin-top: 25px;
+margin-bottom: 0;
+width: 542px;
+height: 52px;
+
+}
+.achievement-info{
+    margin-top: 100px;
+    margin-left: 240px;
+}
+.achievement-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 125px;
+    margin-bottom: 0;
+}
+.achievement-details {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    text-align: center;
+    padding-top: 50px;
+}
+.achievement-details:hover{
+    background-color: aqua;
+}
+.achievement-details img{
+    width: 45.22px;
+height: 45.22px;
+}
+.achievement-details h3{
+    color: #424242;
+    font-weight: 600;
+font-size: 45px;
+line-height: 53px;
+margin: 10px 0 5px 0;
+}
+.achievement-details p{
+    color: #727272;
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+margin-top: 5px;
+}
+
+/* -----------------------
+       sponsors syles
+------------------------- */
+.sponsors{
+    margin-top: 180px;
+}
+.sponsors-header {
+    margin-left: 240px;
+    text-align: center;
+    height: 129px;
+    width: 542px;
+    margin: auto;
+}
+
+.sponsors-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+
+}
+
+.sponsors-discription {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+.sponsors-img {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 50px 240px 20px 240px;
+}
+
+.sponsors-img img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/*-----------------
+   footer syles 
+--------------------*/
+.footer {
+    margin: 130px 240px 215px 240px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.footer-detail {
+    text-align: center;
+    font-size: 20px;
+    color: #424242;
+    padding: 39px;
+}
+/* ---------------
+    media queries
+------------------ */
+@media only  screen and (max-width:768px) {
+    body{
+        width: 767px;
+    }
+    .header{
+        margin: auto;
+    }
+    .head{
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 5px 20px 5px;
+    }
+    .head-nav{
+        flex-direction: column;
+    }
+    .header-info{
+        margin: 50px ;
+    }
+    .header-title{
+        text-align: left;
+    }
+
+    .header-banner img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    /* team */
+    .team-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .team{
+        flex-direction: column;
+    }
+    /* features */
+
+    .features{
+        flex-direction: column-reverse;
+    }
+    .features-img img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .achievement-info{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sponsors-img {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        height:auto;
+    }
+    .team, .features, .achievement, .sponsors, .footer{
+        margin-left: 50px;
+    }
+}
